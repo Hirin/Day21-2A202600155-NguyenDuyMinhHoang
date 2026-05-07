@@ -130,6 +130,7 @@ jobs:
           host: ${{ secrets.VM_HOST }}
           username: ${{ secrets.VM_USER }}
           key: ${{ secrets.VM_SSH_KEY }}
+          passphrase: ""
           script: |
             sudo systemctl restart mlops-serve
             sleep 5
