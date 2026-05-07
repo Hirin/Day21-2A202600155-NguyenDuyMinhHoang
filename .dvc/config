@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://mlops-lab-mlops-lab-2a202600155-nguyenduyminhhoang/dvc
